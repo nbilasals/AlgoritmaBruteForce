@@ -44,6 +44,6 @@ else :
         x=x+1
 np.array(xs)
 np.array(ys)
-plt.plot(xs,ys,'o')
+plt.plot(xs,ys)
 plt.grid()
 plt.show()
