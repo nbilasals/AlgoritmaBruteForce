@@ -10,4 +10,10 @@ if x1==x2 :
     while y <= y2 : 
         print ('(',x ,',',y+1,')' )
         y=y+1
+        
+ elif y1==y2 :
+    print('Titik-titik pembentuk garis: ')
+    while x <= x2 : 
+        print ('(',x+1 ,',',y,')' )
+        x=x+1
  
