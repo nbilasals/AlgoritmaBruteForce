@@ -42,7 +42,7 @@ else :
         print ('(',x ,',',ya,')' )
         i=i+1;
         xs.append(x)
-        ys.append(ya)
+        ys.append(y)
         x=x+1;
 np.array(xs)
 np.array(ys)
