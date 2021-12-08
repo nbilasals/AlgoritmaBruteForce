@@ -1,3 +1,6 @@
+print("Program Membuat Garis dengan Algoritma Brute Force")
+print('==================================================')
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -10,6 +13,7 @@ x=x1
 y=y1
 xs = []
 ys = []
+
 if x1==x2:
     print('Titik-titik pembentuk garis: ')
     while y <= y2 : 
@@ -25,7 +29,7 @@ elif y1==y2:
         x=x+1
         xs.append(x)
         ys.append(y)
-
+        
 else:
     m=(y2-y1)/(x2-x1)
     N=(x2-x1)+1
