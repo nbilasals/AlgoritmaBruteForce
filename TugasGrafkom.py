@@ -23,15 +23,17 @@ if x1==x2 :
     print ('m=(y2-y1)/(x2-x1)')
     print ('Nilai m adalah ( ',y2 ,'-' ,y1,')/(',x2,'-',x1,') = ',m)
     print ('N=(x2-x1)+1')
-    print ('Nilai N adalah ( ',x2,'-',x1, ')= ',N)
+    print ('Nilai N adalah ( ',x2,'-',x1, ') +1= ',N)
     print ('Titik-titik pembentuk garis: ')
     i=0
     while i<N:
         y= m*(x-x1)+y1
         ya=round(y)
         print ('(',x ,',',ya,')' )
-        x=x+1;
         i=i+1;
+        x=x+1;
+      
+      
         
         
  
