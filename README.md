@@ -17,7 +17,7 @@ Penyelesaian :
 2. Tidak Memenuhi (TM) 
 3. Tidak Memenuhi (TM)
 4. m = (5 – 1)/(9 – 3) = 0,67 
-5. N = 9 – 3 + 1 = 5 
+5.N = 9 – 3 + 1 = 5 
 6. untuk x = 3 y = 0,67 (x – 3) + 1 
 7. Ulang sebanyak 7 kali 
 iterasi ke-1: 
