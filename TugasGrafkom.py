@@ -2,16 +2,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 x1=int(input('Masukkan x1 = '))
-x2=int(input('Masukkan x2 = '))
 y1=int(input('Masukkan y1 = '))
+x2=int(input('Masukkan x2 = '))
 y2=int(input('Masukkan y2 = '))
 
 x=x1
 y=y1
-
 xs = []
 ys = []
-if x1==x2 :
+if x1==x2:
     print('Titik-titik pembentuk garis: ')
     while y <= y2 : 
         print ('(',x ,',',y+1,')' )
@@ -19,7 +18,7 @@ if x1==x2 :
         xs.append(x)
         ys.append(y)
 
-elif y1==y2 :
+elif y1==y2:
     print('Titik-titik pembentuk garis: ')
     while x <= x2 : 
         print ('(',x+1 ,',',y,')' )
@@ -27,7 +26,7 @@ elif y1==y2 :
         xs.append(x)
         ys.append(y)
 
-else :
+else:
     m=(y2-y1)/(x2-x1)
     N=(x2-x1)+1
     print ('m=(y2-y1)/(x2-x1)')
@@ -44,6 +43,7 @@ else :
         xs.append(x)
         ys.append(y)
         x=x+1;
+
 np.array(xs)
 np.array(ys)
 plt.plot(xs,ys)
